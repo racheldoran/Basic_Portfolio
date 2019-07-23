@@ -218,13 +218,23 @@ body {
   
   /*media quieires*/
   
-  @-ms-viewport{
-    [viewport property];
+ /* Mobile Styles */
+@media only screen and (max-width: 640px) {
+    body {
+    max-width: 640px;
+    }
   }
   
-  @media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    [class*="col-"] {
-      width: 100%;
+  /* Tablet Styles */
+  @media only screen and (min-width: 768px)  {
+    body {
+      min-width: 768px;
+    }
+  }
+  
+  /* Desktop Styles */
+  @media only screen and (min-width: 980px) {
+    body {
+    min-width: 980px;
     }
   }

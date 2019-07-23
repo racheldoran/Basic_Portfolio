@@ -3,7 +3,7 @@ body {
     font-size: 18px;
     line-height: 34px;
     color: #777777;
-    background: url("../images/concrete_seamless.png");
+    background: url("https://www.toptal.com/designers/subtlepatterns/patterns/floor-tile.png");
   }
   
   * {
@@ -221,6 +221,7 @@ body {
  /* Mobile Styles */
 @media only screen and (max-width: 640px) {
     body {
+    position: static;
     max-width: 640px;
     }
   }
@@ -228,6 +229,7 @@ body {
   /* Tablet Styles */
   @media only screen and (min-width: 768px)  {
     body {
+      position: static;
       min-width: 768px;
     }
   }
@@ -235,6 +237,7 @@ body {
   /* Desktop Styles */
   @media only screen and (min-width: 980px) {
     body {
+    position: static;
     min-width: 980px;
     }
   }
